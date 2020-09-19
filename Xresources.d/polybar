@@ -7,8 +7,8 @@
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ! Battery ~> Use $ ls -1 /sys/class/power_supply/
-! polybar.modules.laptop.battery: BAT0
-! polybar.modules.laptop.adapter: AC
+polybar.modules.laptop.battery: BAT0
+polybar.modules.laptop.adapter: AC
 
 ! Networking
 ! polybar.modules.wifi.iface: 
@@ -21,7 +21,7 @@
 ! Modules
 ! polybar.top.left: 
 ! polybar.top.center: 
-! polybar.top.right: 
+polybar.top.right: pkg filesystem memory cpu temperature networkmanager-dmenu battery
 
 ! Dimesions
 ! polybar.top.width:                  ! e.g. 100%

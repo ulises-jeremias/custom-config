@@ -11,8 +11,10 @@
     untracked = yellow
 [push]
     default = matching
+[pull]
+	rebase = false
 [user]
 	name = ulises-jeremias
 	email = ulisescf.24@gmail.com
 [github]
-	user =
+	user = ulises-jeremias
