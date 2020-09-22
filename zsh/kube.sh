@@ -2,19 +2,22 @@
 ################################# KUBERNETES
 
 kubeconfigenv() {
-    export KUBECONFIG="${HOME}/.kube/au-${1}"
-}
-
-kubestaging() {
-    kubeconfigenv staging
-}
-
-kubeprod() {
-    kubeconfigenv prod
+    export KUBECONFIG="${HOME}/.kube/${1}"
 }
 
 kubeclear() {
     export KUBECONFIG=
+}
+
+############################################
+######################################### AU
+
+kubestaging() {
+    kubeconfigenv au-staging
+}
+
+kubeprod() {
+    kubeconfigenv au-prod
 }
 
 kubemanagement() {
