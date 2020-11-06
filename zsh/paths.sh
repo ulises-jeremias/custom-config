@@ -1,6 +1,6 @@
 # custom exports
 
-export LD_LIBRARY_PATH=/usr/local/lib
+export LD_LIBRARY_PATH="/usr/local/lib:/usr/lib:${LD_LIBRARY_PATH}"
 export PATH="$(yarn global bin):$HOME/bin:$HOME/.local/bin:$PATH"
 
 export NVM_DIR="$HOME/.config"
