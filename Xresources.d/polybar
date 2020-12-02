@@ -20,7 +20,7 @@ polybar.modules.laptop.adapter: AC
 ! Polybar Top Bar attributes
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-polybar.top.background: #00000000
+polybar.top.background: #aa2F343F
 
 ! Modules
 ! polybar.top.left: 
