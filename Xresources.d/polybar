@@ -20,7 +20,7 @@ polybar.modules.laptop.adapter: AC
 ! Polybar Top Bar attributes
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-polybar.top.background: #aa2F343F
+! polybar.top.background: #aa2F343F
 
 ! Modules
 ! polybar.top.left: 
@@ -29,7 +29,7 @@ polybar.top.right: pkg night-mode filesystem memory cpu temperature networkmanag
 
 ! Dimesions
 ! polybar.top.width:                  ! e.g. 100%
-! polybar.top.height:                 ! e.g. 15
+polybar.top.height: 45
 ! polybar.top.offset.y:               ! e.g. 0
 ! polybar.top.offset.x:               ! e.g. 0
 
