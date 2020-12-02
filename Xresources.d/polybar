@@ -2,6 +2,8 @@
 ! POLYBAR SETTINGS
 !==========================================
 
+polybar.radius: 5.0
+
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ! Polybar Modules
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,10 +20,12 @@ polybar.modules.laptop.adapter: AC
 ! Polybar Top Bar attributes
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+polybar.top.background: #00000000
+
 ! Modules
 ! polybar.top.left: 
 ! polybar.top.center: 
-polybar.top.right: pkg filesystem memory cpu temperature networkmanager-dmenu battery
+polybar.top.right: pkg night-mode filesystem memory cpu temperature networkmanager-dmenu battery
 
 ! Dimesions
 ! polybar.top.width:                  ! e.g. 100%
@@ -37,6 +41,8 @@ polybar.top.right: pkg filesystem memory cpu temperature networkmanager-dmenu ba
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ! Polybar Top Bar attributes
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+polybar.bottom.background: #00000000
 
 ! Modules
 ! polybar.bottom.left: 

@@ -1,6 +1,6 @@
 app=/usr/bin/chromium
 last_user=
-screenshot_dir=file:/home/ulisesjcf/Pictures
+screenshot_dir=file:/home/ulisesjcf/Downloads
 action=2
 delay=0
 region=1
