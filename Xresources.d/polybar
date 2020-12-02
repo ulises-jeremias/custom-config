@@ -39,7 +39,7 @@ polybar.top.right: pkg night-mode filesystem memory cpu temperature networkmanag
 ! polybar.top.border.left.size:       ! e.g. 0
 
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-! Polybar Top Bar attributes
+! Polybar Bottom Bar attributes
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 polybar.bottom.background: #00000000
