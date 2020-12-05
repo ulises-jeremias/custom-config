@@ -29,7 +29,7 @@ polybar.modules.laptop.adapter: AC
 polybar.top.right: pkg night-mode bluetooth filesystem memory cpu temperature networkmanager-dmenu battery
 
 ! Dimesions
-polybar.top.width: 99%                 ! e.g. 100%
+polybar.top.width: 98.9%
 polybar.top.height: 45
 ! polybar.top.offset.y:               ! e.g. 0
 polybar.top.offset.x: 10              ! e.g. 0
