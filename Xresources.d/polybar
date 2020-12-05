@@ -2,7 +2,7 @@
 ! POLYBAR SETTINGS
 !==========================================
 
-polybar.polybars: polybar-top,polybar-bottom
+polybar.polybars: i3-top,polybar-bottom
 polybar.radius: 5.0
 
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,10 +29,10 @@ polybar.modules.laptop.adapter: AC
 polybar.top.right: pkg night-mode bluetooth filesystem memory cpu temperature networkmanager-dmenu battery
 
 ! Dimesions
-! polybar.top.width:                  ! e.g. 100%
+polybar.top.width: 99%                 ! e.g. 100%
 polybar.top.height: 45
 ! polybar.top.offset.y:               ! e.g. 0
-! polybar.top.offset.x:               ! e.g. 0
+polybar.top.offset.x: 10              ! e.g. 0
 
 ! polybar.top.border.top.size:        ! e.g. 15
 ! polybar.top.border.bottom.size:     ! e.g. 0
