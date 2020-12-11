@@ -8,5 +8,5 @@ export PATH="$(yarn global bin):$HOME/bin:$HOME/.local/bin:$PATH"
 # [ -s "$NVM_DIR/zsh_completion" ] && \. "$NVM_DIR/zsh_completion"  # This loads nvm zsh_completion
 
 # fnm
-export PATH=/home/ulisesjcf/.fnm:$PATH
+export PATH="$HOME/.fnm:$PATH"
 eval "`fnm env`"
