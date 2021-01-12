@@ -5,7 +5,10 @@
 XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CONFIG_HOME
 
-[ "$PATH" == *"$HOME/bin"* ] || PATH="$HOME/bin:$PATH"
+[[ "$PATH" == *"$HOME/bin"* ]] || PATH="$HOME/bin:$PATH"
+
+# FIXME: required for xfce notifications. Must be fixed
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 gnome-keyring-daemon --start --components=pkcs11 &
