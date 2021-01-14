@@ -45,7 +45,7 @@ tab() {
     local args="$@"
 
     if [ -d "$1" ]; then
-        cdto=`cd "$1"; pwd`
+        cdto=$(cd "$1"; pwd)
         args="${@:2}"
     fi
 
@@ -53,6 +53,5 @@ tab() {
         cmd="$args"
     fi
 
-    # TODO: Open diff tabs
-    echo "${cmd}"
+    termite --exec="${cmd}"
 }
