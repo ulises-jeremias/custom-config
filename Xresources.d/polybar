@@ -20,7 +20,7 @@ polybar.modules.laptop.adapter: AC
 ! Backlight
 ! Use the following command to list available cards:
 ! $ ls -1 /sys/class/backlight/
-polybar.modules.backlight.card: ! e.g. intel_backlight
+polybar.modules.backlight.card: intel_backlight
 
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ! Polybar Top Bar attributes
