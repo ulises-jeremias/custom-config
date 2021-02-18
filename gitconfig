@@ -18,3 +18,7 @@
 	email = ulisescf.24@gmail.com
 [github]
 	user = ulises-jeremias
+
+# Enforce SSH
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
