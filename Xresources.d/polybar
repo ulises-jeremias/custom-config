@@ -51,7 +51,7 @@ polybar.top.offset.x: 10              ! e.g. 0
 polybar.bottom.background: #00000000
 
 ! Modules
-! polybar.bottom.left: 
+polybar.bottom.left: i3-with-icons
 ! polybar.bottom.center: 
 ! polybar.bottom.right: 
 
