@@ -10,8 +10,8 @@ polybar.radius: 5.0
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ! Battery ~> Use $ ls -1 /sys/class/power_supply/
-polybar.modules.laptop.battery: BAT0
-polybar.modules.laptop.adapter: AC
+polybar.modules.laptop.battery: BAT1
+polybar.modules.laptop.adapter: ACAD
 
 ! Networking
 ! polybar.modules.wifi.iface: 
@@ -29,9 +29,9 @@ polybar.modules.backlight.card: intel_backlight
 ! polybar.top.background: #aa2F343F
 
 ! Modules
-! polybar.top.left: 
+polybar.top.left: jgmenu menu window_switch i3-with-icons
 ! polybar.top.center: 
-polybar.top.right: pkg night-mode bluetooth filesystem memory cpu temperature networkmanager-dmenu battery
+polybar.top.right: pkg night-mode bluetooth memory cpu temperature networkmanager-dmenu pulseaudio battery
 
 ! Dimesions
 ! polybar.top.width:                  ! e.g. 100
