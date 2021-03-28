@@ -1,5 +1,5 @@
 ! Rofi
-rofi.font: monospace 12
+rofi.font: monospace 10
 rofi.padding: 20
 rofi.line-padding: 2
 rofi.color-enabled: true

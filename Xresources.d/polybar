@@ -26,7 +26,7 @@ polybar.modules.backlight.card: intel_backlight
 ! Polybar Top Bar attributes
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-! polybar.top.background: #aa2F343F
+polybar.top.background: #aa2F343F
 
 ! Modules
 polybar.top.left: jgmenu menu window_switch i3-with-icons
@@ -35,9 +35,9 @@ polybar.top.right: pkg night-mode bluetooth memory cpu temperature networkmanage
 
 ! Dimesions
 ! polybar.top.width:                  ! e.g. 100
-polybar.top.height: 35
+polybar.top.height: 30
 ! polybar.top.offset.y:               ! e.g. 0
-polybar.top.offset.x: 10              ! e.g. 0
+! polybar.top.offset.x: 10              ! e.g. 0
 
 ! polybar.top.border.top.size:        ! e.g. 15
 ! polybar.top.border.bottom.size:     ! e.g. 0
