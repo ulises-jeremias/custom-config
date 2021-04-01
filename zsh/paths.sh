@@ -10,3 +10,8 @@ export PATH="$(yarn global bin):$HOME/bin:$HOME/.local/bin:$PATH"
 # fnm
 export PATH="$HOME/.fnm:$PATH"
 eval "$(fnm env)"
+
+export GOPATH="$HOME/go"
+export GOROOT="$HOME/.go"
+export PATH="$GOPATH/bin:$PATH"
+# g-install: do NOT edit, see https://github.com/stefanmaric/g
