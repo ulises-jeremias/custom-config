@@ -29,7 +29,7 @@ polybar.modules.backlight.card: intel_backlight
 ! polybar.top.background: #aa2F343F
 
 ! Modules
-! polybar.top.left: 
+polybar.top.left: jgmenu menu window_switch pulseaudio-microphone pulseaudio-bar backlight-acpi-bar
 ! polybar.top.center: 
 polybar.top.right: pkg night-mode bluetooth filesystem memory cpu temperature networkmanager-dmenu battery
 
